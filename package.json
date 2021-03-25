@@ -1,0 +1,23 @@
+{
+  "name": "udacity-supply-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "truffle test"
+  },
+  "author": "A. Elkattan",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "2.4.0"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.4",
+    "ethjs-abi": "^0.2.1",
+    "truffle-assertions": "^0.9.2",
+    "truffle-blockchain-utils": "^0.0.10",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.3.4"
+  }
+}
